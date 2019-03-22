@@ -77,7 +77,7 @@
 			containerPortal = 0F13CA472232C12B00B38D2C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0F13CA4E2232C12B00B38D2C;
-			remoteInfo = Duolingo;
+			remoteInfo = WordSearch;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,14 +88,14 @@
 		0F03DD9922355CAF00821B6A /* WordSearchGridFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchGridFlowLayout.swift; sourceTree = "<group>"; };
 		0F03DD9C2235B89600821B6A /* WordSearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchHeaderView.swift; sourceTree = "<group>"; };
 		0F03DD9E2235B9BD00821B6A /* WordSearchHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchHeaderViewModel.swift; sourceTree = "<group>"; };
-		0F13CA4F2232C12B00B38D2C /* Word Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F13CA4F2232C12B00B38D2C /* WordSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F13CA522232C12B00B38D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F13CA542232C12B00B38D2C /* WordSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchViewController.swift; sourceTree = "<group>"; };
 		0F13CA572232C12B00B38D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WordSearch.storyboard; sourceTree = "<group>"; };
 		0F13CA592232C12D00B38D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F13CA5C2232C12D00B38D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F13CA5E2232C12D00B38D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F13CA632232C12D00B38D2C /* Word SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F13CA632232C12D00B38D2C /* WordSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F13CA692232C12D00B38D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F13CA8522330A8700B38D2C /* json_structures.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = json_structures.txt; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
 		0F13CA892233E0B400B38D2C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -172,8 +172,8 @@
 		0F13CA462232C12B00B38D2C = {
 			isa = PBXGroup;
 			children = (
-				0F13CA512232C12B00B38D2C /* Word Search */,
-				0F13CA662232C12D00B38D2C /* DuolingoTests */,
+				0F13CA512232C12B00B38D2C /* WordSearch */,
+				0F13CA662232C12D00B38D2C /* WordSearchTests */,
 				0F13CA502232C12B00B38D2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,13 +181,13 @@
 		0F13CA502232C12B00B38D2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F13CA4F2232C12B00B38D2C /* Word Search.app */,
-				0F13CA632232C12D00B38D2C /* Word SearchTests.xctest */,
+				0F13CA4F2232C12B00B38D2C /* WordSearch.app */,
+				0F13CA632232C12D00B38D2C /* WordSearchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F13CA512232C12B00B38D2C /* Word Search */ = {
+		0F13CA512232C12B00B38D2C /* WordSearch */ = {
 			isa = PBXGroup;
 			children = (
 				0F13CA522232C12B00B38D2C /* AppDelegate.swift */,
@@ -195,17 +195,17 @@
 				0F13CA7B2232C2B800B38D2C /* Resources */,
 				0F13CA762232C25300B38D2C /* Utility */,
 			);
-			path = "Word Search";
+			path = WordSearch;
 			sourceTree = "<group>";
 		};
-		0F13CA662232C12D00B38D2C /* DuolingoTests */ = {
+		0F13CA662232C12D00B38D2C /* WordSearchTests */ = {
 			isa = PBXGroup;
 			children = (
 				0F13CA8022330A4700B38D2C /* Features */,
 				0F13CAD62234238A00B38D2C /* Resources */,
 				0F13CA8C2233E0CE00B38D2C /* Utility */,
 			);
-			path = DuolingoTests;
+			path = WordSearchTests;
 			sourceTree = "<group>";
 		};
 		0F13CA722232C18900B38D2C /* Features */ = {
@@ -421,9 +421,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F13CA4E2232C12B00B38D2C /* Word Search */ = {
+		0F13CA4E2232C12B00B38D2C /* WordSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F13CA6C2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "Word Search" */;
+			buildConfigurationList = 0F13CA6C2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "WordSearch" */;
 			buildPhases = (
 				0F13CA4B2232C12B00B38D2C /* Sources */,
 				0F13CA4C2232C12B00B38D2C /* Frameworks */,
@@ -433,14 +433,14 @@
 			);
 			dependencies = (
 			);
-			name = "Word Search";
-			productName = Duolingo;
-			productReference = 0F13CA4F2232C12B00B38D2C /* Word Search.app */;
+			name = WordSearch;
+			productName = WordSearch;
+			productReference = 0F13CA4F2232C12B00B38D2C /* WordSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0F13CA622232C12D00B38D2C /* Word SearchTests */ = {
+		0F13CA622232C12D00B38D2C /* WordSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F13CA6F2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "Word SearchTests" */;
+			buildConfigurationList = 0F13CA6F2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "WordSearchTests" */;
 			buildPhases = (
 				0F13CA5F2232C12D00B38D2C /* Sources */,
 				0F13CA602232C12D00B38D2C /* Frameworks */,
@@ -451,9 +451,9 @@
 			dependencies = (
 				0F13CA652232C12D00B38D2C /* PBXTargetDependency */,
 			);
-			name = "Word SearchTests";
-			productName = DuolingoTests;
-			productReference = 0F13CA632232C12D00B38D2C /* Word SearchTests.xctest */;
+			name = WordSearchTests;
+			productName = WordSearchTests;
+			productReference = 0F13CA632232C12D00B38D2C /* WordSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -475,7 +475,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0F13CA4A2232C12B00B38D2C /* Build configuration list for PBXProject "Word Search" */;
+			buildConfigurationList = 0F13CA4A2232C12B00B38D2C /* Build configuration list for PBXProject "WordSearch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -488,8 +488,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F13CA4E2232C12B00B38D2C /* Word Search */,
-				0F13CA622232C12D00B38D2C /* Word SearchTests */,
+				0F13CA4E2232C12B00B38D2C /* WordSearch */,
+				0F13CA622232C12D00B38D2C /* WordSearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -593,7 +593,7 @@
 /* Begin PBXTargetDependency section */
 		0F13CA652232C12D00B38D2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0F13CA4E2232C12B00B38D2C /* Word Search */;
+			target = 0F13CA4E2232C12B00B38D2C /* WordSearch */;
 			targetProxy = 0F13CA642232C12D00B38D2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -740,7 +740,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SB5PKK43B;
-				INFOPLIST_FILE = "Word Search/Resources/Info.plist";
+				INFOPLIST_FILE = WordSearch/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -759,7 +759,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5SB5PKK43B;
-				INFOPLIST_FILE = "Word Search/Resources/Info.plist";
+				INFOPLIST_FILE = WordSearch/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -778,17 +778,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Word Search/Resources/Info.plist";
+				INFOPLIST_FILE = WordSearch/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.agatte.DuolingoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agatte.WordSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Search.app/Word Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordSearch.app/WordSearch";
 			};
 			name = Debug;
 		};
@@ -798,24 +798,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Word Search/Resources/Info.plist";
+				INFOPLIST_FILE = WordSearch/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.agatte.DuolingoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agatte.WordSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Word Search.app/Word Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordSearch.app/WordSearch";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F13CA4A2232C12B00B38D2C /* Build configuration list for PBXProject "Word Search" */ = {
+		0F13CA4A2232C12B00B38D2C /* Build configuration list for PBXProject "WordSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F13CA6A2232C12D00B38D2C /* Debug */,
@@ -824,7 +824,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F13CA6C2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "Word Search" */ = {
+		0F13CA6C2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "WordSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F13CA6D2232C12D00B38D2C /* Debug */,
@@ -833,7 +833,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F13CA6F2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "Word SearchTests" */ = {
+		0F13CA6F2232C12D00B38D2C /* Build configuration list for PBXNativeTarget "WordSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F13CA702232C12D00B38D2C /* Debug */,

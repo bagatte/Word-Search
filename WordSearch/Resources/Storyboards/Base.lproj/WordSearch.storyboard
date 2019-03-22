@@ -13,7 +13,7 @@
         <!--Word Search View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WordSearchViewController" customModule="Duolingo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WordSearchViewController" customModule="WordSearch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5FF-4w-76n">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fJb-ZS-efn" customClass="WordSearchHeaderView" customModule="Duolingo" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fJb-ZS-efn" customClass="WordSearchHeaderView" customModule="WordSearch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Source Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9p-Oi-UAV">
@@ -80,7 +80,7 @@
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" delaysContentTouches="NO" canCancelContentTouches="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTJ-kW-iNG">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="548"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewLayout key="collectionViewLayout" id="DCg-MG-e4t" customClass="WordSearchGridFlowLayout" customModule="Duolingo" customModuleProvider="target"/>
+                                                <collectionViewLayout key="collectionViewLayout" id="DCg-MG-e4t" customClass="WordSearchGridFlowLayout" customModule="WordSearch" customModuleProvider="target"/>
                                                 <cells/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="Fxd-JJ-2HL"/>
